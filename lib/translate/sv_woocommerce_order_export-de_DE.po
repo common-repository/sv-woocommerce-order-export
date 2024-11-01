@@ -1,0 +1,305 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sv_woocommerce_order_export\n"
+"POT-Creation-Date: 2016-08-21 15:07+0200\n"
+"PO-Revision-Date: 2016-08-21 15:08+0200\n"
+"Last-Translator: Matthias Reuter <info@straightvisions.com>\n"
+"Language-Team: straightvisions.com <info@straightvisions.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/common/filter.inc.php:110
+#: lib/filter/filter_product_author_logged_in.inc.php:60
+msgid "n.A."
+msgstr "nicht verfügbar"
+
+#: lib/common/settings.inc.php:92 lib/common/settings.inc.php:140
+#: lib/tpl/user_settings.php:6
+msgid "User Settings"
+msgstr "Benutzereinstellungen"
+
+#: lib/common/settings.inc.php:93
+msgid "Order Export"
+msgstr "Bestellexport"
+
+#: lib/common/settings.inc.php:101 lib/common/settings.inc.php:102
+#: lib/common/settings.inc.php:140 lib/tpl/global_settings.php:7
+msgid "Global Settings"
+msgstr "Globale Einstellungen"
+
+#: lib/common/settings.inc.php:109 lib/common/settings.inc.php:110
+#: lib/common/settings.inc.php:140 lib/tpl/global_filters.php:7
+msgid "Global Filters"
+msgstr "Globale Filter"
+
+#: lib/common/settings.inc.php:118 lib/common/settings.inc.php:119
+#: lib/tpl/subscriptions_global_settings.php:7
+msgid "Subscriptions: Global Settings"
+msgstr "Subscriptions: Globale Einstellungen"
+
+#: lib/common/settings.inc.php:126 lib/common/settings.inc.php:127
+#: lib/tpl/subscriptions_user_settings.php:6
+msgid "Subscriptions: User Settings"
+msgstr "Subscriptions: Benutzereinstellungen"
+
+#: lib/common/settings.inc.php:141
+msgid "Support"
+msgstr "Support"
+
+#: lib/tpl/get_custom_export.php:13 lib/tpl/get_monthly_export.php:34
+msgid "Download Export"
+msgstr "Download Export"
+
+#: lib/tpl/get_monthly_export.php:4
+msgid "Overview"
+msgstr "Übersicht"
+
+#: lib/tpl/get_monthly_export.php:7
+msgid "Details"
+msgstr "Details"
+
+#: lib/tpl/get_monthly_export.php:21
+msgid "No Orders found."
+msgstr "Keine Bestellungen gefunden."
+
+#: lib/tpl/get_monthly_export.php:25 lib/tpl/global_filters.php:11
+msgid "Status"
+msgstr "Status"
+
+#: lib/tpl/get_monthly_export.php:25
+msgid "Orders"
+msgstr "Bestellungen"
+
+#: lib/tpl/get_monthly_export.php:25
+msgid "Gross Amount"
+msgstr "Bruttoumsatz"
+
+#: lib/tpl/get_subscriptions_export.php:11
+msgid "Any"
+msgstr "Alle"
+
+#: lib/tpl/get_subscriptions_export.php:18
+msgid "Download Subscriptions Export"
+msgstr "Download Subscriptions Export"
+
+#: lib/tpl/global_filters.php:12
+msgid "Name"
+msgstr "Name"
+
+#: lib/tpl/global_filters.php:13
+msgid "Filter Effects"
+msgstr "Filtereffekte"
+
+#: lib/tpl/global_filters.php:49
+msgid "Save Filter Settings"
+msgstr "Filtereinstellungen speichern"
+
+#: lib/tpl/global_settings.php:10
+msgid "Basic Settings"
+msgstr "Basiseinstellungen"
+
+#: lib/tpl/global_settings.php:11
+msgid "Effect"
+msgstr "Effekt"
+
+#: lib/tpl/global_settings.php:15
+msgid "Nested Data"
+msgstr "Verschachtelte Daten"
+
+#: lib/tpl/global_settings.php:18 lib/tpl/global_settings.php:25
+msgid "implode"
+msgstr "zusammenfügen"
+
+#: lib/tpl/global_settings.php:19 lib/tpl/global_settings.php:26
+msgid "new row"
+msgstr "neue Reihe"
+
+#: lib/tpl/global_settings.php:20 lib/tpl/global_settings.php:27
+msgid "flat"
+msgstr "flach"
+
+#: lib/tpl/global_settings.php:25
+msgid "Merge data into single row with a delimiter."
+msgstr "Füge Daten in einer einzelnen Reihe zusammen mit einem Trennzeichen."
+
+#: lib/tpl/global_settings.php:26
+msgid "List data in extra rows with new row for each data set"
+msgstr "Liste Daten in extra Reihen mit einer neuen Reihe für jede Datengruppe"
+
+#: lib/tpl/global_settings.php:27
+msgid ""
+"Data for each order will be forced in same row, but some data may be "
+"stripped (e.g. when there is more than one item in a cart)"
+msgstr ""
+"Die Daten für jede Bestellung werden in eine Reihe gezwungen, allerdings "
+"werden dann möglicherweise nicht mehr alle Daten exportiert (z.B. wenn es "
+"mehr als ein Produkt im Warenkorb gibt)"
+
+#: lib/tpl/global_settings.php:32
+msgid "Force Additional Fields"
+msgstr "Erzwinge zusätzliche Felder"
+
+#: lib/tpl/global_settings.php:37
+msgid "Comma separated list of field-names."
+msgstr "Komma-separierte Liste an Feldnamen."
+
+#: lib/tpl/global_settings.php:38
+msgid ""
+"If filter \"Variations New Line\" is active, you will need to insert the "
+"variation-fieldnames here."
+msgstr ""
+"Wenn der Filter \"Variations New Line\" aktiv ist, müssen hier die "
+"Variationen-Feldnamen eingegeben werden."
+
+#: lib/tpl/global_settings.php:45 lib/tpl/subscriptions_global_settings.php:10
+msgid "Field ID"
+msgstr "Feld ID"
+
+#: lib/tpl/global_settings.php:46 lib/tpl/subscriptions_global_settings.php:11
+msgid "Override Field Status"
+msgstr "Überschreibe Feldstatus"
+
+#: lib/tpl/global_settings.php:56 lib/tpl/subscriptions_global_settings.php:19
+msgid "User Choice"
+msgstr "Benutzerwahl"
+
+#: lib/tpl/global_settings.php:57 lib/tpl/subscriptions_global_settings.php:20
+msgid "Show"
+msgstr "anzeigen"
+
+#: lib/tpl/global_settings.php:58 lib/tpl/subscriptions_global_settings.php:21
+msgid "Hide"
+msgstr "verstecken"
+
+#: lib/tpl/global_settings.php:68
+msgid "Save all Global Settings"
+msgstr "Globale Einstellungen speichern"
+
+#: lib/tpl/subscriptions_global_settings.php:29
+msgid "Save all Subscriptions Global Settings"
+msgstr "Alle globalen Einstellungen für Subscriptions speichern"
+
+#: lib/tpl/subscriptions_user_settings.php:10 lib/tpl/user_settings.php:10
+msgid "Field Index #"
+msgstr "Feld Index #"
+
+#: lib/tpl/subscriptions_user_settings.php:11 lib/tpl/user_settings.php:11
+msgid "Activate Field"
+msgstr "Feld aktivieren"
+
+#: lib/tpl/subscriptions_user_settings.php:12 lib/tpl/user_settings.php:12
+msgid "Custom Label"
+msgstr "Eigene Bezeichnung"
+
+#: lib/tpl/subscriptions_user_settings.php:30
+msgid "Save Subscriptions User Settings"
+msgstr "Benutzereinstellungen für Subscriptions speichern"
+
+#: lib/tpl/user_settings.php:30
+msgid "Save User Settings"
+msgstr "Benutzereinstellungen speichern"
+
+#: sv_woocommerce_order_export.php:178
+msgid "Orders Current Month"
+msgstr "Bestellübersicht aktueller Monat"
+
+#: sv_woocommerce_order_export.php:179
+msgid "Orders Last Month"
+msgstr "Bestellübersicht letzter Monat"
+
+#: sv_woocommerce_order_export.php:180
+msgid "Export Orders"
+msgstr "Bestellungen exportieren"
+
+#: sv_woocommerce_order_export.php:183
+msgid "Export Subscriptions"
+msgstr "Subscriptions exportieren"
+
+#: sv_woocommerce_order_export.php:268
+msgid "calculating stats..."
+msgstr "kalkuliere Statistiken..."
+
+#~ msgid "Save all Globals"
+#~ msgstr "Speichere alle globalen Einstellungen"
+
+#~ msgid "Download Excel Export"
+#~ msgstr "Download Excel Export"
+
+#~ msgid "default_settings"
+#~ msgstr "Standardeinstellungen"
+
+#~ msgid "user_settings"
+#~ msgstr "Benutzereinstellungen"
+
+#~ msgid "Override User's \"active-field\"-Settings"
+#~ msgstr "Überschreibe Benutzereinstellungen für aktives Feld"
+
+#~ msgid "order_id"
+#~ msgstr "Order ID"
+
+#~ msgid "invoice_id"
+#~ msgstr "Invoice ID"
+
+#~ msgid "order_date"
+#~ msgstr "Order Date"
+
+#~ msgid "billing_full_name"
+#~ msgstr "Customer Name"
+
+#~ msgid "billing_email"
+#~ msgstr "Customer Email"
+
+#~ msgid "billing_full_address"
+#~ msgstr "Customer Address"
+
+#~ msgid "billing_city"
+#~ msgstr "Customer City"
+
+#~ msgid "billing_postcode"
+#~ msgstr "Customer ZIP"
+
+#~ msgid "billing_country"
+#~ msgstr "Customer Country"
+
+#~ msgid "total"
+#~ msgstr "Order Amount"
+
+#~ msgid "total_tax"
+#~ msgstr "TAX Amount"
+
+#~ msgid "products_tax"
+#~ msgstr "Product VAT"
+
+#~ msgid "products_id"
+#~ msgstr "Product ID"
+
+#~ msgid "products_name"
+#~ msgstr "Product Name"
+
+#~ msgid "products_quantity"
+#~ msgstr "Product Quantity"
+
+#~ msgid "order_status"
+#~ msgstr "Order Status"
+
+#~ msgid "payment_method"
+#~ msgstr "Payment Method"
+
+#~ msgid "Override User's Default \"active-field\"-Settings"
+#~ msgstr "Überschreibe Benutzer"
+
+#~ msgid "Override User Settings"
+#~ msgstr "Benutzereinstellungen überschreiben"
+
+#~ msgid "Orders:"
+#~ msgstr "Bestellungen:"
+
+#~ msgid "Gross Amount:"
+#~ msgstr "Bruttoumsatz:"

@@ -1,0 +1,57 @@
+v1.1.1
+compatibility fixes for WooCommerce 3.x
+
+v1.1.0
+new feature: customer id
+bug fixes: some
+refactoring: just some parts cleaned up
+
+v1.0.9
+new feature: allow to force output within one single row per order
+new feature: force additional fields
+new filter module: print each product's variation in it's own line
+
+v1.0.8
+improvements: New export fields: Shipping Method and Shipping Costs
+improvements: New subscription export field: Author Name
+
+v1.0.7
+improvements: Subscriptions Export shows payment method for each subscription
+improvements: Order Export shows billing phone and order comments
+bug fixed: several notices and warnings eliminated
+bug fixed: sometimes no orders were found even they exist - fixed
+
+v1.0.6
+improvements: Shows author IDs for order items in export
+bug fixed: User Settings were not saved correctly in some cases. To get this bug fixed, you may need to re-type your user settings once again after this patch.
+
+v1.0.5
+new feature: support for "WooCommerce Checkout Field Editor Pro" added
+improvements: Subscriptions Export shows parent order id and billing email
+bug fixed: stats not calculated for last month and current month widget when there were orders but no totals
+bug fixed: Error 500 fixed for custom range export
+
+v1.0.4
+new feature: shows product-item information in new row below order info
+performance improvement: Dashboard widgets now use stepping for stats calculation and caches these for 24 hours
+performance improvement: improved way on how to save settings
+performance stability: Execution time and memory limit are now increased dynamicly by script during runtime when export is running
+bug fixed: global field settings were not applied - this has been fixed
+license update: We've decided to add a copyright notice into website's footer for a small range of domains of our direct competitors. If you are affected (which means you are a direct competitor of us), please contact us for a full refund. Removing copyright notice is absolutely prohibited except by deinstalling the plugin - removing would result in a license and/or copyright violation. Most users will not be affected, but those who are will know why.
+
+v1.0.3
+new export: WooCommerce Subscriptions
+Usability: Admin Menu improved
+bug fixed: PHP notices when no settings were saved
+
+v1.0.2
+new filter module: TM WooCommerce Extra Product Options
+bug fixed: drag&drop did not work on some environments
+bug fixed: CSV now more robust against linebreaks in data
+
+v1.0.1
+new export format: JSON
+new export fields: download_permissions_granted, items_total_sales
+
+v1.0.0
+initial release
